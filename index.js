@@ -74,10 +74,6 @@ async function run() {
       const result = await craftCollection.updateOne(filter, SingleItem, options);
       res.send(result)
     })
-    // dfjasdklfj
-    // dfjasdklfj
-    // dfjasdklfj
-    // dfjasdklfj
 
     await client.db("admin").command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
